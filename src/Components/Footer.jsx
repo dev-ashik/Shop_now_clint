@@ -20,7 +20,7 @@ const Left = styled.div`
     padding: 20px;
 `
 const Logo = styled.h1`
-    
+    color: darkblue;
 `
 const LogoRight = styled.span`
     color: teal;
