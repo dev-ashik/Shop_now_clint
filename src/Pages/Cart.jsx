@@ -160,7 +160,7 @@ const Button = styled.button`
 const Cart = () => {
     return (
         <Container>
-            {/* <Navbar/> */}
+            <Navbar/>
             <Announcement/>
             <Wrapper>
                 <Title>YOUR GAB</Title>

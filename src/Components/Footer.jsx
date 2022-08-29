@@ -22,6 +22,11 @@ const Left = styled.div`
 const Logo = styled.h1`
     
 `
+const LogoRight = styled.span`
+    color: teal;
+    font-weight: 500;
+`
+
 const Desc = styled.p`
     margin: 20px 0;
 `
@@ -87,7 +92,7 @@ const Footer = () => {
     return (
         <Container>
             <Left>
-                <Logo>ShopNow</Logo>
+                <Logo>Shop<LogoRight>Now</LogoRight></Logo>
                 <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium reiciendis facere voluptatum autem nostrum deleniti possimus facilis placeat perferendis consequatur?</Desc>
                 <SocialContainer>
                     <SocailIcon bg="3B5999">

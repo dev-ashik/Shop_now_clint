@@ -68,6 +68,11 @@ const Logo = styled.h1`
     })}
 `
 
+const LogoRight = styled.span`
+    color: teal;
+    font-weight: 500;
+`
+
 const Right = styled.div`
     flex: 1;
     display: flex;
@@ -103,7 +108,7 @@ const Navbar = () => {
                     <SearchIcon style={{color: "gray", fontSize: "16px"}}/>  
                 </SearchContainer>
             </Left>
-            <Center><Logo>ShopNow</Logo></Center>
+            <Center><Logo>Shop<LogoRight>Now</LogoRight></Logo></Center>
             <Right>
                 <MenuItem>REGISTER</MenuItem>
                 <MenuItem>SIGN IN</MenuItem>
